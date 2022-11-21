@@ -1,0 +1,14 @@
+import { useState } from 'react';
+import IRestaurante from '../../../interfaces/IRestaurante';
+
+
+const ListaRestaurantes = () => {
+    const [restaurantes, setRestaurantes] = useState<IRestaurante>;
+    const [proximaPagina, setProximaPagina] = useState('');
+    const [paginaAnterior, setPaginaAnterior] = useState('');
+
+    const [busca, setBusca] = useState('');
+    const [ordenacao, setOrdenacao] = useState('');
+
+    
+}
